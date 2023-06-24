@@ -1,0 +1,6 @@
+framework module Pods_ios_chadopedia_app_ios_chadopedia_appUITests {
+  umbrella header "Pods-ios_chadopedia_app-ios_chadopedia_appUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
