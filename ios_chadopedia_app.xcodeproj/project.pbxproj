@@ -16,9 +16,7 @@
 		31E944532A4445960024AC2C /* ios_chadopedia_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E944522A4445960024AC2C /* ios_chadopedia_appTests.swift */; };
 		31E9445D2A4445960024AC2C /* ios_chadopedia_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E9445C2A4445960024AC2C /* ios_chadopedia_appUITests.swift */; };
 		31E9445F2A4445960024AC2C /* ios_chadopedia_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E9445E2A4445960024AC2C /* ios_chadopedia_appUITestsLaunchTests.swift */; };
-		4671AA694D7CB27CEAE15832 /* Pods_ios_chadopedia_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB5E4A3177BED101227ED86 /* Pods_ios_chadopedia_appTests.framework */; };
 		5DF9DB12CAF4A4B410E5A39C /* Pods_ios_chadopedia_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7649969DF15E7EBC4D2D3429 /* Pods_ios_chadopedia_app.framework */; };
-		8282CE8368E1CF402B72984A /* Pods_ios_chadopedia_app_ios_chadopedia_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B516E3C74FE0C74B9428F9 /* Pods_ios_chadopedia_app_ios_chadopedia_appUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13B516E3C74FE0C74B9428F9 /* Pods_ios_chadopedia_app_ios_chadopedia_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_chadopedia_app_ios_chadopedia_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E944382A4445950024AC2C /* ios_chadopedia_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_chadopedia_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E9443B2A4445950024AC2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31E9443D2A4445950024AC2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,13 +50,8 @@
 		31E944582A4445960024AC2C /* ios_chadopedia_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_chadopedia_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E9445C2A4445960024AC2C /* ios_chadopedia_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_chadopedia_appUITests.swift; sourceTree = "<group>"; };
 		31E9445E2A4445960024AC2C /* ios_chadopedia_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_chadopedia_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		469293DD41692C71BF7CE222 /* Pods-ios_chadopedia_app-ios_chadopedia_appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_chadopedia_app-ios_chadopedia_appUITests.release.xcconfig"; path = "Target Support Files/Pods-ios_chadopedia_app-ios_chadopedia_appUITests/Pods-ios_chadopedia_app-ios_chadopedia_appUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6DBAF89CA577376D3FCBB2B2 /* Pods-ios_chadopedia_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_chadopedia_app.release.xcconfig"; path = "Target Support Files/Pods-ios_chadopedia_app/Pods-ios_chadopedia_app.release.xcconfig"; sourceTree = "<group>"; };
 		7649969DF15E7EBC4D2D3429 /* Pods_ios_chadopedia_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_chadopedia_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC3B6CF0AA002AF57819C1CD /* Pods-ios_chadopedia_app-ios_chadopedia_appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_chadopedia_app-ios_chadopedia_appUITests.debug.xcconfig"; path = "Target Support Files/Pods-ios_chadopedia_app-ios_chadopedia_appUITests/Pods-ios_chadopedia_app-ios_chadopedia_appUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC9F43EFB2DFFA1AF85DE335 /* Pods-ios_chadopedia_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_chadopedia_appTests.debug.xcconfig"; path = "Target Support Files/Pods-ios_chadopedia_appTests/Pods-ios_chadopedia_appTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EBB5E4A3177BED101227ED86 /* Pods_ios_chadopedia_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_chadopedia_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDE48553A12ED269ABFF56F9 /* Pods-ios_chadopedia_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_chadopedia_appTests.release.xcconfig"; path = "Target Support Files/Pods-ios_chadopedia_appTests/Pods-ios_chadopedia_appTests.release.xcconfig"; sourceTree = "<group>"; };
 		FEF251915E0F5C532D974735 /* Pods-ios_chadopedia_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_chadopedia_app.debug.xcconfig"; path = "Target Support Files/Pods-ios_chadopedia_app/Pods-ios_chadopedia_app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4671AA694D7CB27CEAE15832 /* Pods_ios_chadopedia_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8282CE8368E1CF402B72984A /* Pods_ios_chadopedia_app_ios_chadopedia_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				7649969DF15E7EBC4D2D3429 /* Pods_ios_chadopedia_app.framework */,
-				13B516E3C74FE0C74B9428F9 /* Pods_ios_chadopedia_app_ios_chadopedia_appUITests.framework */,
-				EBB5E4A3177BED101227ED86 /* Pods_ios_chadopedia_appTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,10 +147,6 @@
 			children = (
 				FEF251915E0F5C532D974735 /* Pods-ios_chadopedia_app.debug.xcconfig */,
 				6DBAF89CA577376D3FCBB2B2 /* Pods-ios_chadopedia_app.release.xcconfig */,
-				AC3B6CF0AA002AF57819C1CD /* Pods-ios_chadopedia_app-ios_chadopedia_appUITests.debug.xcconfig */,
-				469293DD41692C71BF7CE222 /* Pods-ios_chadopedia_app-ios_chadopedia_appUITests.release.xcconfig */,
-				BC9F43EFB2DFFA1AF85DE335 /* Pods-ios_chadopedia_appTests.debug.xcconfig */,
-				EDE48553A12ED269ABFF56F9 /* Pods-ios_chadopedia_appTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -178,6 +162,7 @@
 				31E944342A4445950024AC2C /* Sources */,
 				31E944352A4445950024AC2C /* Frameworks */,
 				31E944362A4445950024AC2C /* Resources */,
+				157497A705910FA578CA727C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,7 +177,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31E944652A4445960024AC2C /* Build configuration list for PBXNativeTarget "ios_chadopedia_appTests" */;
 			buildPhases = (
-				8AE87A48C3AC39A2537517EC /* [CP] Check Pods Manifest.lock */,
 				31E9444A2A4445960024AC2C /* Sources */,
 				31E9444B2A4445960024AC2C /* Frameworks */,
 				31E9444C2A4445960024AC2C /* Resources */,
@@ -211,7 +195,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31E944682A4445960024AC2C /* Build configuration list for PBXNativeTarget "ios_chadopedia_appUITests" */;
 			buildPhases = (
-				3158A7ADDD6C48C1E31CFDB4 /* [CP] Check Pods Manifest.lock */,
 				31E944542A4445960024AC2C /* Sources */,
 				31E944552A4445960024AC2C /* Frameworks */,
 				31E944562A4445960024AC2C /* Resources */,
@@ -297,26 +280,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3158A7ADDD6C48C1E31CFDB4 /* [CP] Check Pods Manifest.lock */ = {
+		157497A705910FA578CA727C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_chadopedia_app/Pods-ios_chadopedia_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios_chadopedia_app-ios_chadopedia_appUITests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-ios_chadopedia_app/Pods-ios_chadopedia_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_chadopedia_app/Pods-ios_chadopedia_app-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		63C4E9C4D918CD1CC5493B20 /* [CP] Check Pods Manifest.lock */ = {
@@ -335,28 +313,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ios_chadopedia_app-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8AE87A48C3AC39A2537517EC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios_chadopedia_appTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -608,7 +564,6 @@
 		};
 		31E944662A4445960024AC2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC9F43EFB2DFFA1AF85DE335 /* Pods-ios_chadopedia_appTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -629,7 +584,6 @@
 		};
 		31E944672A4445960024AC2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDE48553A12ED269ABFF56F9 /* Pods-ios_chadopedia_appTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -650,7 +604,6 @@
 		};
 		31E944692A4445960024AC2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC3B6CF0AA002AF57819C1CD /* Pods-ios_chadopedia_app-ios_chadopedia_appUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -669,7 +622,6 @@
 		};
 		31E9446A2A4445960024AC2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 469293DD41692C71BF7CE222 /* Pods-ios_chadopedia_app-ios_chadopedia_appUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
