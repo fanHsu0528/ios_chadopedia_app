@@ -1,19 +1,30 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+source 'https://cdn.cocoapods.org/'
+platform :ios, '11.0'
+
+# Pods for ios_chadopedia_app
+def rx_swift
+    pod 'RxSwift', '~> 6.5.0'
+end
+
+def rx_cocoa
+    pod 'RxCocoa', '~> 6.5.0'
+end
+
 
 target 'ios_chadopedia_app' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  rx_cocoa
+  rx_swift
 
-  # Pods for ios_chadopedia_app
-
-  target 'ios_chadopedia_appTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'ios_chadopedia_appUITests' do
-    # Pods for testing
-  end
+#  target 'ios_chadopedia_appTests' do
+#    inherit! :search_paths
+#    # Pods for testing
+#  end
+#
+#  target 'ios_chadopedia_appUITests' do
+#    # Pods for testing
+#  end
 
 end
