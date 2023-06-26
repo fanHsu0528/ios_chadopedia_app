@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312C36EB2A484080008AA732 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312C36EA2A484080008AA732 /* Application.swift */; };
+		3140DEA32A484FD9000046CD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3140DEA12A484FD9000046CD /* SearchViewController.swift */; };
+		3140DEA42A484FD9000046CD /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3140DEA22A484FD9000046CD /* SearchViewController.xib */; };
+		3140DEA82A485000000046CD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3140DEA62A485000000046CD /* SettingViewController.swift */; };
+		3140DEA92A485000000046CD /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3140DEA72A485000000046CD /* SettingViewController.xib */; };
+		3140DEAB2A485321000046CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3140DEAA2A485321000046CD /* GoogleService-Info.plist */; };
 		31E9443C2A4445950024AC2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E9443B2A4445950024AC2C /* AppDelegate.swift */; };
 		31E9443E2A4445950024AC2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E9443D2A4445950024AC2C /* SceneDelegate.swift */; };
-		31E944402A4445950024AC2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E9443F2A4445950024AC2C /* ViewController.swift */; };
-		31E944432A4445950024AC2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E944412A4445950024AC2C /* Main.storyboard */; };
 		31E944452A4445960024AC2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E944442A4445960024AC2C /* Assets.xcassets */; };
 		31E944482A4445960024AC2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E944462A4445960024AC2C /* LaunchScreen.storyboard */; };
 		31E944532A4445960024AC2C /* ios_chadopedia_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E944522A4445960024AC2C /* ios_chadopedia_appTests.swift */; };
 		31E9445D2A4445960024AC2C /* ios_chadopedia_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E9445C2A4445960024AC2C /* ios_chadopedia_appUITests.swift */; };
 		31E9445F2A4445960024AC2C /* ios_chadopedia_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E9445E2A4445960024AC2C /* ios_chadopedia_appUITestsLaunchTests.swift */; };
+		31E944722A46D09C0024AC2C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E944702A46D09C0024AC2C /* HomeViewController.swift */; };
+		31E944732A46D09C0024AC2C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31E944712A46D09C0024AC2C /* HomeViewController.xib */; };
+		31E944762A4729100024AC2C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E944752A4729100024AC2C /* Utils.swift */; };
 		5DF9DB12CAF4A4B410E5A39C /* Pods_ios_chadopedia_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7649969DF15E7EBC4D2D3429 /* Pods_ios_chadopedia_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,11 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		312C36EA2A484080008AA732 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		3140DEA12A484FD9000046CD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3140DEA22A484FD9000046CD /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		3140DEA62A485000000046CD /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		3140DEA72A485000000046CD /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		3140DEAA2A485321000046CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		31E944382A4445950024AC2C /* ios_chadopedia_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_chadopedia_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E9443B2A4445950024AC2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31E9443D2A4445950024AC2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31E9443F2A4445950024AC2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		31E944422A4445950024AC2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31E944442A4445960024AC2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31E944472A4445960024AC2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31E944492A4445960024AC2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +61,9 @@
 		31E944582A4445960024AC2C /* ios_chadopedia_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_chadopedia_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E9445C2A4445960024AC2C /* ios_chadopedia_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_chadopedia_appUITests.swift; sourceTree = "<group>"; };
 		31E9445E2A4445960024AC2C /* ios_chadopedia_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_chadopedia_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31E944702A46D09C0024AC2C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		31E944712A46D09C0024AC2C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		31E944752A4729100024AC2C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		6DBAF89CA577376D3FCBB2B2 /* Pods-ios_chadopedia_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_chadopedia_app.release.xcconfig"; path = "Target Support Files/Pods-ios_chadopedia_app/Pods-ios_chadopedia_app.release.xcconfig"; sourceTree = "<group>"; };
 		7649969DF15E7EBC4D2D3429 /* Pods_ios_chadopedia_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_chadopedia_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF251915E0F5C532D974735 /* Pods-ios_chadopedia_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_chadopedia_app.debug.xcconfig"; path = "Target Support Files/Pods-ios_chadopedia_app/Pods-ios_chadopedia_app.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +95,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312C36E92A48406B008AA732 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				312C36EA2A484080008AA732 /* Application.swift */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		3140DEA02A484FB8000046CD /* search */ = {
+			isa = PBXGroup;
+			children = (
+				3140DEA12A484FD9000046CD /* SearchViewController.swift */,
+				3140DEA22A484FD9000046CD /* SearchViewController.xib */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		3140DEA52A484FEE000046CD /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				3140DEA62A485000000046CD /* SettingViewController.swift */,
+				3140DEA72A485000000046CD /* SettingViewController.xib */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
 		31E9442F2A4445950024AC2C = {
 			isa = PBXGroup;
 			children = (
@@ -106,13 +146,14 @@
 		31E9443A2A4445950024AC2C /* ios_chadopedia_app */ = {
 			isa = PBXGroup;
 			children = (
+				31E944742A4729030024AC2C /* util */,
+				31E9446B2A46D01A0024AC2C /* UI */,
 				31E9443B2A4445950024AC2C /* AppDelegate.swift */,
 				31E9443D2A4445950024AC2C /* SceneDelegate.swift */,
-				31E9443F2A4445950024AC2C /* ViewController.swift */,
-				31E944412A4445950024AC2C /* Main.storyboard */,
 				31E944462A4445960024AC2C /* LaunchScreen.storyboard */,
 				31E944442A4445960024AC2C /* Assets.xcassets */,
 				31E944492A4445960024AC2C /* Info.plist */,
+				3140DEAA2A485321000046CD /* GoogleService-Info.plist */,
 			);
 			path = ios_chadopedia_app;
 			sourceTree = "<group>";
@@ -132,6 +173,42 @@
 				31E9445E2A4445960024AC2C /* ios_chadopedia_appUITestsLaunchTests.swift */,
 			);
 			path = ios_chadopedia_appUITests;
+			sourceTree = "<group>";
+		};
+		31E9446B2A46D01A0024AC2C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				312C36E92A48406B008AA732 /* application */,
+				31E944772A4736630024AC2C /* root */,
+				31E944782A47366F0024AC2C /* home */,
+				3140DEA02A484FB8000046CD /* search */,
+				3140DEA52A484FEE000046CD /* setting */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		31E944742A4729030024AC2C /* util */ = {
+			isa = PBXGroup;
+			children = (
+				31E944752A4729100024AC2C /* Utils.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		31E944772A4736630024AC2C /* root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		31E944782A47366F0024AC2C /* home */ = {
+			isa = PBXGroup;
+			children = (
+				31E944702A46D09C0024AC2C /* HomeViewController.swift */,
+				31E944712A46D09C0024AC2C /* HomeViewController.xib */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 		B693CCF69D7E433EE7B789F9 /* Frameworks */ = {
@@ -258,8 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				31E944482A4445960024AC2C /* LaunchScreen.storyboard in Resources */,
+				3140DEA92A485000000046CD /* SettingViewController.xib in Resources */,
 				31E944452A4445960024AC2C /* Assets.xcassets in Resources */,
-				31E944432A4445950024AC2C /* Main.storyboard in Resources */,
+				3140DEA42A484FD9000046CD /* SearchViewController.xib in Resources */,
+				31E944732A46D09C0024AC2C /* HomeViewController.xib in Resources */,
+				3140DEAB2A485321000046CD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,9 +406,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31E944402A4445950024AC2C /* ViewController.swift in Sources */,
+				3140DEA32A484FD9000046CD /* SearchViewController.swift in Sources */,
+				312C36EB2A484080008AA732 /* Application.swift in Sources */,
 				31E9443C2A4445950024AC2C /* AppDelegate.swift in Sources */,
 				31E9443E2A4445950024AC2C /* SceneDelegate.swift in Sources */,
+				31E944722A46D09C0024AC2C /* HomeViewController.swift in Sources */,
+				3140DEA82A485000000046CD /* SettingViewController.swift in Sources */,
+				31E944762A4729100024AC2C /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,14 +449,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		31E944412A4445950024AC2C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31E944422A4445950024AC2C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		31E944462A4445960024AC2C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -513,7 +589,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -545,7 +620,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
